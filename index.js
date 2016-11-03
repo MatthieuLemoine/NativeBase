@@ -36,6 +36,7 @@ import Spinner from './Components/Widgets/Spinner';
 // import ProgressBar from './Components/Widgets/ProgressBar';
 import { Col, Row, Grid } from "react-native-easy-grid";
 import ScrollableTabView from './Components/Widgets/Tabs';
+import Subtitle from './Components/Widgets/Subtitle';
 
 
 module.exports = {
@@ -75,5 +76,6 @@ module.exports = {
   FooterTab: FooterTab,
   TabBar: Tab,
   Fab: Fab,
-  Tabs : ScrollableTabView
+  Tabs : ScrollableTabView,
+	Subtitle : Subtitle
 };
